@@ -1,0 +1,95 @@
+:local .paymentEndWrapper {
+	width: 100%;
+	padding: 20px;
+}
+
+:local .paymentEndTitle {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+:local .paymentEndTitleSuccess {
+	color: #62BF5D;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+:local .paymentEndTitleFailed {
+	color: #D23232;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+:local .paymentEndTitleIcon {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 36px;
+}
+
+:local .paymentEndTitleName {
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+:local .paymentEndDesc {
+	font-size: 15px;
+	margin-bottom: 20px;
+	color: #2D2C2C;
+}
+
+:local .paymentEndReciept {
+    font-size: 15px;
+    padding: 15px 10px;
+    box-shadow: 1px 1px 2px #eee;
+    border: 1px solid #eee;
+    border-top-width: 2px;
+    border-top-style: dashed;
+    margin-top: -5px;
+    background: #fff;
+}
+
+:local .paymentEndRecieptTitle {
+	text-align: center;
+	color: #909090;
+	margin-bottom: 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+:local .paymentEndRecieptBody {
+	display: inline-block;
+	width: 100%;
+}
+
+:local .paymentEndRecieptBodyLeft {
+	float: left;
+	width: 60%;
+	text-align: left;
+    color: #333;
+}
+
+:local .paymentEndRecieptBodyRight {
+	float: right;
+	width: 40%;
+	text-align: right;
+	color: #111;
+	font-weight: bold;
+}
+
+:local .paymentBtn {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    color: #FFF;
+    position: relative;
+    font-family: 'Avenir LT W04_55 Roman1475524';
+    background: #0585DD;
+    border: 1.5px solid #0585DD;
+}

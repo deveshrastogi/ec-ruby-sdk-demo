@@ -1,0 +1,201 @@
+:local .order {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+:local .text {
+    color: #0585DD;
+    margin-bottom: 20px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;                    
+}
+
+:local .label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color:#737373 ; 
+    font-weight:normal;
+    position:relative;
+    pointer-events:none;
+    left:5px;
+    top:-50px;
+    transition:0.2s ease all; 
+}
+
+:local(.input:focus) ~ :local(.label), :local(.input:valid) ~ :local(.label) {
+  top:-70px;
+  font-size:14px;
+  color:#5264AE;
+}
+
+:local .tab:hover{
+  text-decoration: none;
+}
+
+:local .listView {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+}
+
+:local .listOthersItemView {
+  font-size: 14px;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #E4E4E4;
+  letter-spacing: 2px;
+}
+
+:local .listOthersItemLargeView {
+  composes: listOthersItemView;
+  font-size: 16px;
+  padding: 15px 10px;
+}
+
+:local .listOthersItemView:hover {
+  background: #eee;
+}
+
+:local .iconRightArrow {
+  font-size: 20px;
+  position: absolute;
+  right: 5px;
+  top: 15px;
+}
+
+
+:local .pd-right {
+  padding-right: 10px;
+}
+
+:local .pd-left {
+  ;padding-left: 10px
+}
+
+:local .btnPri {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    color: #FFF;
+    position: relative;
+    font-family: 'Avenir LT W04_55 Roman1475524';
+    background: #0585DD;
+    border: 1.5px solid #0585DD;
+}
+
+:local .btnRefresh {
+    display: inline-block;
+    float: right;
+    padding-top: 10px;
+    margin-right: 45%;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    width: 30%;
+    position: relative;
+    font-family: 'Avenir LT W04_55 Roman1475524';
+    color: #62BF5D;
+}
+
+:local .input {
+    border: none;
+    display: block;
+    width: 100%;
+    outline: none;
+    height: 40px;
+    padding: 5px;
+    border-bottom: 1px solid #C3C3C3;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+:local .inputBlock {
+    position: relative;
+}
+
+:local .inputBlockHalfWidth {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+:local .cvvClass {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+:local .monthYearClass{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+    margin-top: -20px;
+}
+
+:local .input:active {
+    border-color: #0585DD;
+}
+
+:local .input:focus {
+    border-color: #0585DD;
+}
+
+:local .input:hover {
+    border-color: #0585DD;
+}
+
+:local .placeholder {
+    color: #737373 !important;
+}
+
+:local ::-webkit-input-placeholder {
+    color:    #737373;
+}
+:local :-moz-placeholder {
+    color:    #737373;
+}
+:local ::-moz-placeholder {
+    color:    #737373;
+}
+:local :-ms-input-placeholder {
+    color:    #737373;
+}
+
+.nav-tabs > li > a {
+  margin-top: 10px;
+}
+
+.tab-content {
+  margin-top: 30px;
+}
+
+.sm_inp { 
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}

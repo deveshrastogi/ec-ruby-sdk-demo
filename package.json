@@ -1,0 +1,30 @@
+{
+  "name": "ruby-demo-project",
+  "version": "1.0.0",
+  "description": "Server client demo project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --history-api-fallback --content-base lib/app/views --progress --colors",
+    "build": "webpack -p --config webpack.config.js --profile --progress --colors"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "history": "^1.17.0",
+    "react": "^0.14.8",
+    "react-addons-css-transition-group": "^0.14.3",
+    "react-dom": "^15.0.2",
+    "react-router": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.5",
+    "jsx-loader": "^0.13.2",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.10",
+    "webpack-dev-server": "^1.14.0"
+  }
+}

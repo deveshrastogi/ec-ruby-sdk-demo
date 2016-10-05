@@ -1,0 +1,32 @@
+:local(.header) {
+	position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 600px;
+	padding: 10px;
+	background-color: #333F4C;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	z-index: 100;
+    color: #ffffff;
+    text-align: left;
+}
+
+:local(.headerLogo img) {
+    height: 25px;
+    background-size: cover;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+:local(.headerName) {
+	font-weight: bolder;
+    margin-left: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+:local(.backButton) {
+    text-decoration: none !important;
+    color:white !important;
+}
