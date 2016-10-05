@@ -5,7 +5,6 @@ GEM
     expresscheckout (0.1.6)
     json (1.8.3)
     mime-types (1.25.1)
-    puma (3.6.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -27,7 +26,6 @@ PLATFORMS
 DEPENDENCIES
   expresscheckout
   json
-  puma
   sinatra
   unirest
 

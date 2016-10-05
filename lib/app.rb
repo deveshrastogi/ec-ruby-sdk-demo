@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 require 'expresscheckout'
 
-#set :root, 'lib/app'
+set :root, 'lib/app'
 $version= {:JuspayAPILibrary=>'Ruby v1.0'}
 
 $api_key = '3E69335A241F49DFAE9C023BAB73D312'
