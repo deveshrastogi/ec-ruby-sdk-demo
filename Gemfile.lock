@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.8)
-    expresscheckout (0.1.5)
+    expresscheckout (0.1.6)
     json (1.8.3)
     mime-types (1.25.1)
     rack (1.6.4)
